@@ -1,4 +1,5 @@
 ﻿using Packt.Shared;
 
+QueryingCategories();
 //QueryingProducts();
-FilteredIncludes();
+//FilteredIncludes();
