@@ -13,7 +13,7 @@ partial class Program
       // a query to get all categories and their related products
       IQueryable<Category>? categories;
       // = db.Categories;
-      // .Include(c => c.Products);
+      //.Include(c => c.Products);
 
       db.ChangeTracker.LazyLoadingEnabled = false;
 

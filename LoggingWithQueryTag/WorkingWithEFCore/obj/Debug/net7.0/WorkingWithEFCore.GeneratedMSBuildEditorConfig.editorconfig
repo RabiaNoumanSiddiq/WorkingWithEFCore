@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WorkingWithEFCore
-build_property.ProjectDir = /Users/Rabia/Desktop/Educative/packet mbe- c#/docker setup/vscode/Chapter10/LoggingEFCore/WorkingWithEFCore/
+build_property.ProjectDir = /Users/Rabia/Desktop/Educative/packet mbe- c#/docker setup/vscode/Chapter10/LoggingWithQueryTag/WorkingWithEFCore/

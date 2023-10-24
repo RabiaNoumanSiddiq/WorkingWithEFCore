@@ -1394,11 +1394,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Rabia/Desktop/Educative/packet mbe- c#/docker setup/vscode/Chapter10/LoggingEFCore/WorkingWithEFCore/WorkingWithEFCore.csproj",
+      "projectUniqueName": "/Users/Rabia/Desktop/Educative/packet mbe- c#/docker setup/vscode/Chapter10/PatternMatchingWithLinq/WorkingWithEFCore/WorkingWithEFCore.csproj",
       "projectName": "WorkingWithEFCore",
-      "projectPath": "/Users/Rabia/Desktop/Educative/packet mbe- c#/docker setup/vscode/Chapter10/LoggingEFCore/WorkingWithEFCore/WorkingWithEFCore.csproj",
+      "projectPath": "/Users/Rabia/Desktop/Educative/packet mbe- c#/docker setup/vscode/Chapter10/PatternMatchingWithLinq/WorkingWithEFCore/WorkingWithEFCore.csproj",
       "packagesPath": "/Users/Rabia/.nuget/packages/",
-      "outputPath": "/Users/Rabia/Desktop/Educative/packet mbe- c#/docker setup/vscode/Chapter10/LoggingEFCore/WorkingWithEFCore/obj/",
+      "outputPath": "/Users/Rabia/Desktop/Educative/packet mbe- c#/docker setup/vscode/Chapter10/PatternMatchingWithLinq/WorkingWithEFCore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/Rabia/.nuget/NuGet/NuGet.Config"

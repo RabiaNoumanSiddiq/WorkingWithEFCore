@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z3fxtwiFque0oshoEvbFoImatHX7oK6KXrxpyzIAIHxtOf4PHD9WAfI6dB+HvdU3CsmUYdMuhhalS4gq/o4JbA==",
+  "dgSpecHash": "O9CgzjbryUqvkt+E1zygO3zSIW2xPmcnng4PGyctsrmxl5X6R5xWAZlcoc0g50wQmr7JkLWD4zl54LJNEoA1pQ==",
   "success": true,
-  "projectFilePath": "/Users/Rabia/Desktop/Educative/packet mbe- c#/docker setup/vscode/Chapter10/Querying/WorkingWithEFCore/WorkingWithEFCore.csproj",
+  "projectFilePath": "/Users/Rabia/Desktop/Educative/packet mbe- c#/docker setup/vscode/Chapter10/FilteredIncludes/WorkingWithEFCore/WorkingWithEFCore.csproj",
   "expectedPackageFiles": [
     "/Users/Rabia/.nuget/packages/castle.core/5.1.0/castle.core.5.1.0.nupkg.sha512",
     "/Users/Rabia/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
