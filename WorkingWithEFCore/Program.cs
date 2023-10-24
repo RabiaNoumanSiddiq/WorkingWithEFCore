@@ -15,7 +15,7 @@ WriteLine($"Provider: {db.Database.ProviderName}");
 
 //GetRandomProduct();
 
-/*
+
 var resultAdd = AddProduct(categoryId: 6,
   productName: "Bob's Burgers", price: 500M);
 
@@ -25,7 +25,7 @@ if (resultAdd.affected == 1)
 }
 
 ListProducts(productIdsToHighlight: new[] { resultAdd.productId });
-*/
+
 
 /*
 var resultUpdate = IncreaseProductPrice(
