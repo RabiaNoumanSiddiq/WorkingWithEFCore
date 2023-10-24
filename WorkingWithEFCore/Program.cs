@@ -5,7 +5,7 @@ Northwind db = new();
 WriteLine($"Provider: {db.Database.ProviderName}");
 
 
-// QueryingCategories();
+ QueryingCategories();
 
 // FilteredIncludes();
 
@@ -16,7 +16,7 @@ WriteLine($"Provider: {db.Database.ProviderName}");
 //GetRandomProduct();
 
 
-var resultAdd = AddProduct(categoryId: 6,
+/*var resultAdd = AddProduct(categoryId: 6,
   productName: "Bob's Burgers", price: 500M);
 
 if (resultAdd.affected == 1)
@@ -24,7 +24,7 @@ if (resultAdd.affected == 1)
   WriteLine($"Add product successful with ID: {resultAdd.productId}.");
 }
 
-ListProducts(productIdsToHighlight: new[] { resultAdd.productId });
+ListProducts(productIdsToHighlight: new[] { resultAdd.productId });*/
 
 
 /*

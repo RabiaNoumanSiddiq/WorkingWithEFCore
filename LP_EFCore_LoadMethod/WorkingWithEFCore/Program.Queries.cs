@@ -24,14 +24,13 @@ partial class Program
 
       if (eagerLoading)
       {
-        categories = db.Categories;//?.Include(c => c.Products);
+        categories = db.Categories?.Include(c => c.Products);
       }
       else
       {
+        categories = db.Categories;
         Write("Enable explicit loading? (Y/N): ");
         explicitLoading = (ReadKey(intercept: true).Key == ConsoleKey.Y);
-        if(explicitLoading == true) categories = db.Categories;
-        else categories = db.Categories?.Include(c => c.Products);
         WriteLine();
       }
 
@@ -49,13 +48,16 @@ partial class Program
           Write($"Explicitly load products for {c.CategoryName}? (Y/N): ");
           ConsoleKeyInfo key = ReadKey(intercept: true);
           WriteLine();
+
           if (key.Key == ConsoleKey.Y)
           {
             CollectionEntry<Category, Product> products =
-            db.Entry(c).Collection(c2 => c2.Products);
+              db.Entry(c).Collection(c2 => c2.Products);
+
             if (!products.IsLoaded) products.Load();
           }
         }
+
         WriteLine($"{c.CategoryName} has {c.Products.Count} products.");
       }
     }
