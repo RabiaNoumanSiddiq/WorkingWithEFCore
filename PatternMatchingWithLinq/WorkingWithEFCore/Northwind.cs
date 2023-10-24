@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore; // DbContext,DbContextOptionsBuilder
+using Microsoft.EntityFrameworkCore.Diagnostics;
 
 namespace Packt.Shared;
 // this manages the connection to the database
